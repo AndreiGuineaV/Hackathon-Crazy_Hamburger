@@ -1,0 +1,40 @@
+# --- Python & Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Medii virtuale (NU le urca pe git, sunt imense)
+venv/
+env/
+.venv/
+Scripts/
+
+# --- Securitate (CRITIC) ---
+# Aici stau cheile tale API. Să nu le urci NICIODATĂ!
+.env
+.env.local
+.env.*.local
+
+# --- Baze de date ---
+# De obicei nu urcăm baza de date binară, ci o recreăm cu scriptul
+*.db
+*.sqlite3
+*.sqlite
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Frontend (Node.js/React) ---
+node_modules/
+build/
+dist/
+.next/
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
